@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="body">
+    <div class="header">
+        <h2>Rainy Panda</h2>
+        <div class="search">
+            <input id="cityname" type="search" placeholder="Enter City">
+            <button onclick="search()" id="find">Search</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="weather">
+            <img class="weather_icon" src="" alt="">
+            <h1 class="temp"></h1>
+            <h3 class="city"></h3>
+        </div>
+        <div class="details">
+            <div class="box1">
+                <p>Humidity</p>
+                <h3 class="humidity"></h3>
+            </div>
+            <div class="box2">
+                <p>Wind Speed</p>
+                <h3 class="wind"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="./weather.js"></script>
+</body>
+</html>
